@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<script type="text/javascript" src="js/main.js"></script>
+
+	
+
+	</head>
+	<body>	
+	<h1>QUIZ APP</h1>
+	<div id="questions">
+		<h2 id="question0">Who is the US president?</h2>
+				<input type="text" id="answer0">
+		<h2 id="question1">2+2?</h2>
+				<input type="text"  id="answer1">
+		<h2 id="question2">What is the largest continent?</h2>
+				<input type="text"  id="answer2">
+		<h2 id="question3">Largest Desert?</h2>
+				<input type="text"  id="answer3">
+		<h2 id="question4">Capital of Czech Republic?</h2>
+				<input type="text"  id="answer4">
+		<h2 id="question5">Capital of USA?</h2>
+				<input type="text"  id="answer5">
+		<h2 id="question6">Capital of California?</h2>
+				<input type="text"  id="answer6"></br>
+				</br>
+
+		<button type="button" onclick="getAnswers()">SUBMIT</button>
+	</div>
+	<div id="answers">
+		<p>Correct: </p><span id="correct"></span><br>
+		<p>Incorrect: </p><span id="incorrect"></span>
+
+	</div>
+	</body>
+</html>
